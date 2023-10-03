@@ -833,6 +833,11 @@ export abstract class Project implements LanguageServiceHost, ModuleResolutionHo
     }
 
     /** @internal */
+    getPackageJsonInfoCache() {
+        return this.resolutionCache.getModuleResolutionCache().getPackageJsonInfoCache();
+    }
+
+    /** @internal */
     resolveTypeReferenceDirectiveReferences<T extends string | FileReference>(
         typeDirectiveReferences: readonly T[],
         containingFile: string,
@@ -2631,7 +2636,7 @@ export class AutoImportProviderProject extends Project {
                     hostProject.currentDirectory,
                     compilerOptions,
                     host,
-                    program.getModuleResolutionCache(),
+                    program.getPackageJsonInfoCache(),
                 );
                 if (packageJson) {
                     const entrypoints = getRootNamesFromPackageJson(packageJson, program, symlinkCache);
@@ -2651,7 +2656,7 @@ export class AutoImportProviderProject extends Project {
                             directory,
                             compilerOptions,
                             host,
-                            program.getModuleResolutionCache(),
+                            program.getPackageJsonInfoCache(),
                         );
                         if (typesPackageJson) {
                             const entrypoints = getRootNamesFromPackageJson(typesPackageJson, program, symlinkCache);
@@ -2691,7 +2696,7 @@ export class AutoImportProviderProject extends Project {
                 packageJson,
                 compilerOptions,
                 host,
-                program.getModuleResolutionCache(),
+                program.getPackageJsonInfoCache(),
                 resolveJs,
             );
             if (entrypoints) {
@@ -2842,8 +2847,8 @@ export class AutoImportProviderProject extends Project {
     }
 
     /** @internal */
-    override getModuleResolutionCache() {
-        return this.hostProject.getCurrentProgram()?.getModuleResolutionCache();
+    override getPackageJsonInfoCache() {
+        return this.hostProject.getPackageJsonInfoCache();
     }
 }
 
