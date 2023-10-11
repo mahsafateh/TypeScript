@@ -24,6 +24,7 @@ import {
     ActionWatchTypingLocations,
     BeginInstallTypes,
     CloseProject,
+    DisableTypeAcquisition,
     DiscoverTypings,
     EndInstallTypes,
     EventBeginInstallTypes,
@@ -133,6 +134,10 @@ export abstract class TypingsInstaller {
     }
 
     closeProject(req: CloseProject) {
+        this.closeWatchers(req.projectName);
+    }
+
+    disableTypeAcquisition(req: DisableTypeAcquisition) {
         this.closeWatchers(req.projectName);
     }
 
@@ -452,7 +457,7 @@ export abstract class TypingsInstaller {
 
         const existing = this.projectWatchers.get(projectName);
         const newSet = new Set(files);
-        if (!existing || forEachKey(newSet, s => !existing.has(s)) || forEachKey(existing, s => !newSet.has(s))) {
+        if (!existing || newSet.size !== existing.size || forEachKey(newSet, s => !existing.has(s)) || forEachKey(existing, s => !newSet.has(s))) {
             this.projectWatchers.set(projectName, newSet);
             this.sendResponse({ kind: ActionWatchTypingLocations, projectName, files });
         }

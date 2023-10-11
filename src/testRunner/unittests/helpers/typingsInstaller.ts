@@ -243,6 +243,10 @@ export class TestTypingsInstaller implements ts.server.ITypingsInstaller {
         this.installer?.closeProject({ projectName: p.getProjectName(), kind: "closeProject" });
     }
 
+    onTypeAcquisitionDisabled(p: ts.server.Project): void {
+        this.installer.disableTypeAcquisition({ projectName: p.getProjectName(), kind: "disableTypeAcquisition" });
+    }
+
     enqueueInstallTypingsRequest(project: ts.server.Project, typeAcquisition: ts.TypeAcquisition, unresolvedImports: ts.SortedReadonlyArray<string>) {
         this.ensureInstaller().enqueueInstallTypingsRequest(project, typeAcquisition, unresolvedImports);
     }
