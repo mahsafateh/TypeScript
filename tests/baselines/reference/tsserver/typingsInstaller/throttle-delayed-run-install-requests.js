@@ -772,12 +772,6 @@ Info seq  [hh:mm:ss:mss] 	Files (5)
 	  Root file specified for compilation
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 5
-Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/data/node_modules/@types/commander/index.d.ts:: []
-Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/data/node_modules/@types/cordova/index.d.ts:: []
-Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/data/node_modules/@types/jquery/index.d.ts:: []
-Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/data/node_modules/@types/lodash/index.d.ts:: []
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 5 Done: []
 TI:: [hh:mm:ss:mss] Got install request
     {
       "projectName": "/a/app/test1.csproj",
@@ -918,10 +912,6 @@ Info seq  [hh:mm:ss:mss] 	Files (3)
 	  Root file specified for compilation
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 3
-Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/data/node_modules/@types/grunt/index.d.ts:: []
-Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/data/node_modules/@types/gulp/index.d.ts:: []
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 3 Done: []
 TI:: [hh:mm:ss:mss] Got install request
     {
       "projectName": "/a/app/test2.csproj",
