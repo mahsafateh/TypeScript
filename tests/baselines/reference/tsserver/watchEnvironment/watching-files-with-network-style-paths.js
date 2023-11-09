@@ -51,10 +51,6 @@ Info seq  [hh:mm:ss:mss] 	Files (2)
 	  Root file specified for compilation
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 2
-Info seq  [hh:mm:ss:mss] New unresolvedImports for c:/a/lib/lib.d.ts:: []
-Info seq  [hh:mm:ss:mss] New unresolvedImports for c:/myprojects/project/x.js:: []
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 2 Done: []
 TI:: Creating typing installer
 
 PolledWatches::
@@ -267,10 +263,6 @@ Info seq  [hh:mm:ss:mss] 	Files (2)
 	  Root file specified for compilation
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 2
-Info seq  [hh:mm:ss:mss] New unresolvedImports for //vda1cs4850/a/lib/lib.d.ts:: []
-Info seq  [hh:mm:ss:mss] New unresolvedImports for //vda1cs4850/myprojects/project/x.js:: []
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 2 Done: []
 TI:: Creating typing installer
 
 FsWatches::
@@ -471,10 +463,6 @@ Info seq  [hh:mm:ss:mss] 	Files (2)
 	  Root file specified for compilation
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 2
-Info seq  [hh:mm:ss:mss] New unresolvedImports for //vda1cs4850/a/lib/lib.d.ts:: []
-Info seq  [hh:mm:ss:mss] New unresolvedImports for //vda1cs4850/c$/myprojects/project/x.js:: []
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 2 Done: []
 TI:: Creating typing installer
 
 PolledWatches::
@@ -693,10 +681,6 @@ Info seq  [hh:mm:ss:mss] 	Files (2)
 	  Root file specified for compilation
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 2
-Info seq  [hh:mm:ss:mss] New unresolvedImports for c:/a/lib/lib.d.ts:: []
-Info seq  [hh:mm:ss:mss] New unresolvedImports for c:/users/username/myprojects/project/x.js:: []
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 2 Done: []
 TI:: Creating typing installer
 
 PolledWatches::
@@ -915,10 +899,6 @@ Info seq  [hh:mm:ss:mss] 	Files (2)
 	  Root file specified for compilation
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 2
-Info seq  [hh:mm:ss:mss] New unresolvedImports for //vda1cs4850/a/lib/lib.d.ts:: []
-Info seq  [hh:mm:ss:mss] New unresolvedImports for //vda1cs4850/c$/users/username/myprojects/project/x.js:: []
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 2 Done: []
 TI:: Creating typing installer
 
 PolledWatches::
