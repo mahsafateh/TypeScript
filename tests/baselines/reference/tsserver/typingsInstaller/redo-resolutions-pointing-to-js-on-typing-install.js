@@ -376,7 +376,6 @@ TI:: [hh:mm:ss:mss] Got install request
         "include": [],
         "exclude": []
       },
-      "unresolvedImports": [],
       "projectRootPath": "/user/username/projects/a/b",
       "cachePath": "/user/username/projects/a/cache",
       "kind": "discover"
@@ -385,7 +384,6 @@ TI:: [hh:mm:ss:mss] Request specifies cache path '/user/username/projects/a/cach
 TI:: [hh:mm:ss:mss] Processing cache location '/user/username/projects/a/cache'
 TI:: [hh:mm:ss:mss] Cache location was already processed...
 TI:: [hh:mm:ss:mss] Explicitly included types: []
-TI:: [hh:mm:ss:mss] Inferred typings from unresolved imports: []
 TI:: [hh:mm:ss:mss] Finished typings discovery:
     {
       "cachedTypingPaths": [],
@@ -417,7 +415,6 @@ TI:: [hh:mm:ss:mss] Sending response:
         "maxNodeModuleJsDepth": 2
       },
       "typings": [],
-      "unresolvedImports": [],
       "kind": "action::set"
     }
 Info seq  [hh:mm:ss:mss] Scheduled: /dev/null/inferredProject1*
@@ -443,7 +440,6 @@ Info seq  [hh:mm:ss:mss] event:
           "maxNodeModuleJsDepth": 2
         },
         "typings": [],
-        "unresolvedImports": [],
         "kind": "action::set"
       }
     }

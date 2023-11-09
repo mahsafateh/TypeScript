@@ -187,7 +187,6 @@ TI:: [hh:mm:ss:mss] Got install request
         "include": [],
         "exclude": []
       },
-      "unresolvedImports": [],
       "projectRootPath": "/user/username/projects/project",
       "cachePath": "/a/data",
       "kind": "discover"
@@ -198,7 +197,6 @@ TI:: [hh:mm:ss:mss] Cache location was already processed...
 TI:: [hh:mm:ss:mss] Failed to load safelist from types map file '/typesMap.json'
 TI:: [hh:mm:ss:mss] Explicitly included types: []
 TI:: [hh:mm:ss:mss] Typing names in '/user/username/projects/project/package.json' dependencies: ["jquery"]
-TI:: [hh:mm:ss:mss] Inferred typings from unresolved imports: []
 TI:: [hh:mm:ss:mss] Finished typings discovery:
     {
       "cachedTypingPaths": [],
@@ -387,7 +385,6 @@ TI:: [hh:mm:ss:mss] Sending response:
       "typings": [
         "/a/data/node_modules/@types/jquery/index.d.ts"
       ],
-      "unresolvedImports": [],
       "kind": "action::set"
     }
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/project/tsconfig.json
@@ -412,7 +409,6 @@ Info seq  [hh:mm:ss:mss] event:
         "typings": [
           "/a/data/node_modules/@types/jquery/index.d.ts"
         ],
-        "unresolvedImports": [],
         "kind": "action::set"
       }
     }
@@ -486,7 +482,6 @@ TI:: [hh:mm:ss:mss] Got install request
         "include": [],
         "exclude": []
       },
-      "unresolvedImports": [],
       "projectRootPath": "/user/username/projects/project",
       "cachePath": "/a/data",
       "kind": "discover"
@@ -496,7 +491,6 @@ TI:: [hh:mm:ss:mss] Processing cache location '/a/data'
 TI:: [hh:mm:ss:mss] Cache location was already processed...
 TI:: [hh:mm:ss:mss] Explicitly included types: []
 TI:: [hh:mm:ss:mss] Typing names in '/user/username/projects/project/package.json' dependencies: ["jquery"]
-TI:: [hh:mm:ss:mss] Inferred typings from unresolved imports: []
 TI:: [hh:mm:ss:mss] Finished typings discovery:
     {
       "cachedTypingPaths": [
@@ -530,7 +524,6 @@ TI:: [hh:mm:ss:mss] Sending response:
       "typings": [
         "/a/data/node_modules/@types/jquery/index.d.ts"
       ],
-      "unresolvedImports": [],
       "kind": "action::set"
     }
 Info seq  [hh:mm:ss:mss] event:
@@ -553,7 +546,6 @@ Info seq  [hh:mm:ss:mss] event:
         "typings": [
           "/a/data/node_modules/@types/jquery/index.d.ts"
         ],
-        "unresolvedImports": [],
         "kind": "action::set"
       }
     }
@@ -707,7 +699,6 @@ TI:: [hh:mm:ss:mss] Got install request
         "include": [],
         "exclude": []
       },
-      "unresolvedImports": [],
       "projectRootPath": "/user/username/projects/project2",
       "cachePath": "/a/data",
       "kind": "discover"
@@ -717,7 +708,6 @@ TI:: [hh:mm:ss:mss] Processing cache location '/a/data'
 TI:: [hh:mm:ss:mss] Cache location was already processed...
 TI:: [hh:mm:ss:mss] Explicitly included types: []
 TI:: [hh:mm:ss:mss] Typing names in '/user/username/projects/project2/package.json' dependencies: ["commander"]
-TI:: [hh:mm:ss:mss] Inferred typings from unresolved imports: []
 TI:: [hh:mm:ss:mss] Finished typings discovery:
     {
       "cachedTypingPaths": [],

@@ -169,7 +169,6 @@ TI:: [hh:mm:ss:mss] Got install request
         "include": [],
         "exclude": []
       },
-      "unresolvedImports": [],
       "projectRootPath": "/",
       "cachePath": "/tmp",
       "kind": "discover"
@@ -181,7 +180,6 @@ TI:: [hh:mm:ss:mss] Failed to load safelist from types map file '/typesMap.json'
 TI:: [hh:mm:ss:mss] Explicitly included types: []
 TI:: [hh:mm:ss:mss] Searching for typing names in /bower_components; all files: ["/bower_components/jquery/bower.json"]
 TI:: [hh:mm:ss:mss]     Found package names: ["jquery"]
-TI:: [hh:mm:ss:mss] Inferred typings from unresolved imports: []
 TI:: [hh:mm:ss:mss] Finished typings discovery:
     {
       "cachedTypingPaths": [],
@@ -431,7 +429,6 @@ TI:: [hh:mm:ss:mss] Sending response:
       "typings": [
         "/tmp/node_modules/@types/jquery/index.d.ts"
       ],
-      "unresolvedImports": [],
       "kind": "action::set"
     }
 Info seq  [hh:mm:ss:mss] Scheduled: /jsconfig.json, Cancelled earlier one
@@ -460,7 +457,6 @@ Info seq  [hh:mm:ss:mss] event:
         "typings": [
           "/tmp/node_modules/@types/jquery/index.d.ts"
         ],
-        "unresolvedImports": [],
         "kind": "action::set"
       }
     }
@@ -536,7 +532,6 @@ TI:: [hh:mm:ss:mss] Got install request
         "include": [],
         "exclude": []
       },
-      "unresolvedImports": [],
       "projectRootPath": "/",
       "cachePath": "/tmp",
       "kind": "discover"
@@ -547,7 +542,6 @@ TI:: [hh:mm:ss:mss] Cache location was already processed...
 TI:: [hh:mm:ss:mss] Explicitly included types: []
 TI:: [hh:mm:ss:mss] Searching for typing names in /bower_components; all files: ["/bower_components/jquery/bower.json"]
 TI:: [hh:mm:ss:mss]     Found package names: ["jquery"]
-TI:: [hh:mm:ss:mss] Inferred typings from unresolved imports: []
 TI:: [hh:mm:ss:mss] Finished typings discovery:
     {
       "cachedTypingPaths": [
@@ -584,7 +578,6 @@ TI:: [hh:mm:ss:mss] Sending response:
       "typings": [
         "/tmp/node_modules/@types/jquery/index.d.ts"
       ],
-      "unresolvedImports": [],
       "kind": "action::set"
     }
 Info seq  [hh:mm:ss:mss] event:
@@ -611,7 +604,6 @@ Info seq  [hh:mm:ss:mss] event:
         "typings": [
           "/tmp/node_modules/@types/jquery/index.d.ts"
         ],
-        "unresolvedImports": [],
         "kind": "action::set"
       }
     }
